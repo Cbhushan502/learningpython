@@ -1,0 +1,34 @@
+Tasks: 497 total,   1 running, 496 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.3 us,  1.1 sy,  0.0 ni, 95.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  31830.3 total,  14126.5 free,   8215.7 used,   9488.0 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  21298.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  54091 pverma    20   0 1130.0g 152464 109848 S  12.5   0.5   0:03.44 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=6093 --enable-crash-reporter=, --change-stack-guard-on-fork=enabl+
+   2374 pverma     9 -11 3696924  22584  15936 S   6.2   0.1   9:08.30 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+   2490 pverma    20   0   24.8g 157240  93864 S   6.2   0.5   9:56.70 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1002/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+   3125 pverma    20   0 1060036 137036  79880 S   6.2   0.4   7:40.15 /usr/share/teams/teams --type=gpu-process --field-trial-handle=15567334797208935868,3219632409322815970,131072 --enable-features=C+
+   3393 pverma    20   0   13.6g 519068 102992 S   6.2   1.6  12:32.97 /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --field-tr+
+   3419 pverma    20   0 9231044 451824 136276 S   6.2   1.4  32:02.13 /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --field-tr+
+   6085 pverma    20   0   33.3g 598812 419208 S   6.2   1.8  14:25.21 /opt/google/chrome/chrome
+   6128 pverma    20   0   32.8g 210760 118768 S   6.2   0.6  15:52.43 /opt/google/chrome/chrome --type=gpu-process --crashpad-handler-pid=6093 --enable-crash-reporter=, --change-stack-guard-on-fork=en+
+  53894 root      20   0       0      0      0 I   6.2   0.0   0:00.31 [kworker/12:0-events]
+  54229 pverma    20   0   20912   4260   3288 R   6.2   0.0   0:00.01 top -bc
+      1 root      20   0  170500  11644   8136 S   0.0   0.0   0:02.13 /sbin/init splash
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.07 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [netns]
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [mm_percpu_wq]
+     10 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [rcu_tasks_rude_]
+     11 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [rcu_tasks_trace]
+     12 root      20   0       0      0      0 S   0.0   0.0   0:00.32 [ksoftirqd/0]
+     13 root      20   0       0      0      0 I   0.0   0.0   0:33.04 [rcu_sched]
+     14 root      rt   0       0      0      0 S   0.0   0.0   0:00.33 [migration/0]
+     15 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 [idle_inject/0]
+     17 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [cpuhp/0]
+     18 root      20   0       0      0      0 S   0.0   0.0   0:00.01 [cpuhp/1]
+     19 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 [idle_inject/1]
+     20 root      rt   0       0      0      0 S   0.0   0.0   0:00.41 [migration/1]
+     21 root      20   0       0      0      0 S   0.0   0.0   0:00.10 [ksoftirqd/1]
+     23 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [kworker/1:0H-events_highpri]
